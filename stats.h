@@ -1,9 +1,18 @@
 #include <stdio.h>
 #define SIZE 40
-
+/*
+    @brief funtion th compute the statistical analysis for mean, median, minmum, maximum 
+    
+    This program computes for the mean , median , minimum, maximum value of an array with 
+    the help of two paramemter _array and len.
+    
+    @param _array For the array name
+    @param len the lent of the array
+*/
 void statistics(unsigned char *_array,unsigned int len);
 
-/*    @brief DIsplays the all the element of am array
+/* 
+    @brief DIsplays the all the element of am array
     
     This function printhe elements in an array it makes use of 
     two parameters _array and len both of unsigned char and int 
